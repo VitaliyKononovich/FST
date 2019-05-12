@@ -1,0 +1,8 @@
+id,value
+0,UP Direction (MS->BTS->BSC->CN)
+1,Down Direction (MS<-BTS<-BSC<-CN)
+2,UP Direction (MS->BTS->BSC->CN)
+3,Down Direction (MS<-BTS<-BSC<-CN)
+4,UP Direction (MS->BTS->BSC->CN)
+5,Down Direction (MS<-BTS<-BSC<-CN)
+31,Vendor specific

@@ -1,0 +1,27 @@
+[
+{"protocolType": 1, "protocolName": "UM", "procedures": [
+		{ "procedureType": 1, "procedureName": "CSPS"}
+	]},
+{"protocolType": 100, "protocolName": "Vendor", "procedures": []},
+{"protocolType": 101, "protocolName": "UU", "procedures": [
+		{ "procedureType": 0, "procedureName": "DL DCCH"},
+		{ "procedureType": 1, "procedureName": "DL CCCH"},
+		{ "procedureType": 2, "procedureName": "UL DCCH"},
+		{ "procedureType": 3, "procedureName": "UL CCCH"},
+		{ "procedureType": 4, "procedureName": "BCCH FACH"}
+	]},
+{"protocolType": 102, "protocolName": "IUB", "procedures": []},
+{"protocolType": 103, "protocolName": "IU", "procedures": []},
+{"protocolType": 104, "protocolName": "RNSAP", "procedures": []},
+{"protocolType": 151, "protocolName": "UM", "procedures": [
+		{ "procedureType": 1, "procedureName": "CSPS"},
+		{ "procedureType": 2, "procedureName": "RLC/MAC-UP"},
+		{ "procedureType": 3, "procedureName": "RLC/MAC-DOWN"},
+		{ "procedureType": 4, "procedureName": "LLC"}
+	]},
+{"protocolType": 152, "protocolName": "Abis", "procedures": [
+		{ "procedureType": 1, "procedureName": "CS"},
+		{ "procedureType": 2, "procedureName": "PS"}
+	]},
+{"protocolType": 153, "protocolName": "A", "procedures": []}
+]

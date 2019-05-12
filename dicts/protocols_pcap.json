@@ -1,0 +1,52 @@
+[
+{"protocolType": 104, "protocol": "RNSAP", "dirs": [
+	{"dir": 7, "pcap_data":   {"source_ip": "127.0.0.60", "dest_ip": "127.0.0.61"}},
+	{"dir": 8, "pcap_data":   {"source_ip": "127.0.0.61", "dest_ip": "127.0.0.60"}}
+	]},
+{"protocolType": 103, "protocol": "RANAP", "dirs": [
+	{"dir": 5, "pcap_data":   {"source_ip": "127.0.0.60", "dest_ip": "127.0.0.100", "opc": 60, "dpc": 100}},
+	{"dir": 6, "pcap_data":   {"source_ip": "127.0.0.100", "dest_ip": "127.0.0.60", "opc": 100, "dpc": 60}},
+	{"dir": 103, "pcap_data": {"source_ip": "127.0.0.60", "dest_ip": "127.0.0.110", "opc": 60, "dpc": 110}},
+	{"dir": 104, "pcap_data": {"source_ip": "127.0.0.110", "dest_ip": "127.0.0.60", "opc": 110, "dpc": 60}},
+	{"dir": 105, "pcap_data": {"source_ip": "127.0.0.60", "dest_ip": "127.0.0.120", "opc": 60, "dpc": 120}},
+	{"dir": 106, "pcap_data": {"source_ip": "127.0.0.120", "dest_ip": "127.0.0.60", "opc": 120, "dpc": 60}}
+	]},
+{"protocolType": 102, "protocol": "NBAP", "dirs": [
+	{"dir": 3, "pcap_data":   {"source_ip": "127.0.0.20", "dest_ip": "127.0.0.60"}},
+	{"dir": 4, "pcap_data":   {"source_ip": "127.0.0.60", "dest_ip": "127.0.0.20"}}
+	]},
+{"protocolType": 101, "protocol": "UU", "dirs": [
+	{"dir": 9, "procedures": [
+		{"procedureType": 2, "pcap_data":   {"source_ip": "127.0.0.2", "dest_ip": "127.0.0.60", "pocedureName": "UL DCCH"}},
+		{"procedureType": 3, "pcap_data":   {"source_ip": "127.0.0.2", "dest_ip": "127.0.0.60", "pocedureName": "UL CCCH"}}
+		]},
+	{"dir": 10, "procedures": [
+		{"procedureType": 0, "pcap_data":   {"source_ip": "127.0.0.60", "dest_ip": "127.0.0.2", "pocedureName": "DL DCCH"}},
+		{"procedureType": 1, "pcap_data":   {"source_ip": "127.0.0.60", "dest_ip": "127.0.0.2", "pocedureName": "DL CCCH"}},
+		{"procedureType": 4, "pcap_data":   {"source_ip": "127.0.0.60", "dest_ip": "127.0.0.2", "pocedureName": "BCCH FACH"}},
+		{"procedureType": 5, "pcap_data":   {"source_ip": "127.0.0.60", "dest_ip": "127.0.0.2", "pocedureName": "PCCH"}}
+		]}	
+	]},
+{"protocolType": 151, "protocol": "UM", "dirs": [
+	{"dir": 2, "procedures": [
+		{"procedureType": 4, "pcap_data":   {"source_ip": "127.0.0.1", "dest_ip": "127.0.0.10", "pocedureName": "LLC"}}
+		]},
+	{"dir": 3, "procedures": [
+		{"procedureType": 4, "pcap_data":   {"source_ip": "127.0.0.10", "dest_ip": "127.0.0.1", "pocedureName": "LLC"}}
+		]},
+	{"dir": 4, "procedures": [
+		{"procedureType": 2, "pcap_data":   {"source_ip": "127.0.0.1", "dest_ip": "127.0.0.10", "pocedureName": "RLC-MAC-UP"}}
+		]},
+	{"dir": 5, "procedures": [
+		{"procedureType": 3, "pcap_data":   {"source_ip": "127.0.0.10", "dest_ip": "127.0.0.1", "pocedureName": "RLC-MAC-DOWN"}}
+		]}
+	]},
+{"protocolType": 152, "protocol": "Abis", "dirs": [
+	{"dir": 0, "pcap_data":   {"source_ip": "127.0.0.10", "dest_ip": "127.0.0.50", "pocedureName": "Abis"}},
+	{"dir": 1, "pcap_data":   {"source_ip": "127.0.0.50", "dest_ip": "127.0.0.10", "pocedureName": "Abis"}}
+	]},
+{"protocolType": 153, "protocol": "A", "dirs": [
+	{"dir": 0, "pcap_data":   {"source_ip": "127.0.0.50", "dest_ip": "127.0.0.110", "opc": 50, "dpc": 110}},
+	{"dir": 1, "pcap_data":   {"source_ip": "127.0.0.110", "dest_ip": "127.0.0.50", "opc": 110, "dpc": 50}}
+	]}
+]
