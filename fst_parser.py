@@ -27,7 +27,6 @@ if __name__ == "__main__":
         source = input('Please enter full path to processed file or directory:').strip()
         # source = r'c:\Users\vitaliy_ko\Documents\CEM\FST\GSMData\ZTE_FST_GSM_116_20180911080933_20180911081000_V6.50.310rP001_315_P49.dat'
 
-
     files = list()
     if os.path.exists(source):
         if os.path.isdir(source):
